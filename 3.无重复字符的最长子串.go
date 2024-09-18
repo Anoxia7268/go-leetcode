@@ -52,10 +52,10 @@
  *
  *
  */
-package main
+package sf
 
 // @lc code=start
-func lengthOfLongestSubstring(s string) int {
+func lengthOfLongestSubstring3(s string) int {
 	dict := [128]bool{}
 	length, max := 0, 0
 	for i, j := 0, 0; i < len(s); i++ {

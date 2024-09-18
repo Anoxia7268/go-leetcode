@@ -59,10 +59,10 @@
  * 进阶：你可以想出一个时间复杂度小于 O(n^2) 的算法吗？
  *
  */
-package main
+package sf
 
 // @lc code=start
-func twoSum(nums []int, target int) []int {
+func twoSum1(nums []int, target int) []int {
 	a := len(nums)
 	k := make([]int, 2)
 	for i := 0; i < a-1; i++ {
